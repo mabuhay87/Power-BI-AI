@@ -1,0 +1,301 @@
+CustomerID,CustomerSegment,Industry,RegionID,IsNewCustomer
+1000,Enterprise,Finance,3,0
+1001,SMB,Public Sector,3,1
+1002,SMB,Tech,1,0
+1003,Consumer,Healthcare,5,0
+1004,Consumer,Public Sector,1,0
+1005,Consumer,Tech,2,0
+1006,SMB,Manufacturing,1,0
+1007,SMB,Public Sector,3,0
+1008,Enterprise,Healthcare,1,0
+1009,Mid-Market,Tech,5,0
+1010,SMB,Tech,4,0
+1011,Mid-Market,Tech,1,1
+1012,SMB,Manufacturing,5,0
+1013,Consumer,Public Sector,5,0
+1014,SMB,Manufacturing,3,0
+1015,Enterprise,Retail,5,1
+1016,SMB,Retail,5,0
+1017,Mid-Market,Public Sector,5,1
+1018,Mid-Market,Manufacturing,5,1
+1019,SMB,Healthcare,2,0
+1020,Consumer,Tech,2,0
+1021,Consumer,Tech,3,0
+1022,Consumer,Public Sector,1,0
+1023,Consumer,Retail,5,0
+1024,Mid-Market,Retail,1,1
+1025,Consumer,Tech,1,0
+1026,SMB,Public Sector,3,0
+1027,SMB,Manufacturing,5,0
+1028,SMB,Retail,5,1
+1029,SMB,Manufacturing,4,0
+1030,Mid-Market,Retail,1,0
+1031,SMB,Retail,1,1
+1032,Consumer,Finance,2,1
+1033,Mid-Market,Retail,4,0
+1034,SMB,Healthcare,2,0
+1035,Mid-Market,Public Sector,2,1
+1036,SMB,Public Sector,2,0
+1037,Consumer,Manufacturing,3,0
+1038,SMB,Retail,3,0
+1039,Consumer,Healthcare,2,0
+1040,Consumer,Manufacturing,4,1
+1041,SMB,Finance,1,1
+1042,SMB,Manufacturing,4,0
+1043,Consumer,Manufacturing,5,0
+1044,Enterprise,Retail,3,0
+1045,Enterprise,Finance,1,0
+1046,Consumer,Manufacturing,1,1
+1047,SMB,Healthcare,5,0
+1048,Mid-Market,Healthcare,5,0
+1049,SMB,Public Sector,2,0
+1050,Consumer,Finance,3,0
+1051,Enterprise,Finance,3,0
+1052,SMB,Public Sector,4,1
+1053,SMB,Manufacturing,2,0
+1054,SMB,Finance,2,1
+1055,SMB,Healthcare,2,0
+1056,Enterprise,Healthcare,2,0
+1057,Enterprise,Retail,3,0
+1058,Consumer,Finance,3,1
+1059,Mid-Market,Manufacturing,2,1
+1060,SMB,Public Sector,4,0
+1061,Enterprise,Public Sector,1,0
+1062,Consumer,Manufacturing,1,1
+1063,Mid-Market,Tech,4,0
+1064,Consumer,Retail,2,0
+1065,Mid-Market,Public Sector,3,1
+1066,Mid-Market,Finance,1,0
+1067,Mid-Market,Retail,5,0
+1068,SMB,Finance,5,0
+1069,SMB,Healthcare,4,0
+1070,SMB,Retail,2,0
+1071,Enterprise,Public Sector,1,1
+1072,SMB,Retail,2,0
+1073,Mid-Market,Retail,1,0
+1074,Consumer,Retail,4,0
+1075,SMB,Tech,4,0
+1076,Mid-Market,Retail,5,1
+1077,Consumer,Finance,2,0
+1078,SMB,Healthcare,5,0
+1079,SMB,Manufacturing,2,1
+1080,SMB,Retail,5,0
+1081,SMB,Public Sector,3,0
+1082,Consumer,Retail,3,0
+1083,Consumer,Public Sector,3,0
+1084,Enterprise,Finance,3,0
+1085,Consumer,Public Sector,1,0
+1086,Consumer,Manufacturing,3,1
+1087,SMB,Healthcare,4,0
+1088,Consumer,Public Sector,4,0
+1089,Mid-Market,Public Sector,1,0
+1090,Consumer,Healthcare,3,0
+1091,Consumer,Manufacturing,3,1
+1092,SMB,Retail,3,0
+1093,SMB,Public Sector,5,0
+1094,SMB,Healthcare,2,1
+1095,Mid-Market,Finance,5,0
+1096,Consumer,Healthcare,2,0
+1097,Consumer,Finance,3,0
+1098,SMB,Manufacturing,3,0
+1099,Mid-Market,Retail,5,1
+1100,Mid-Market,Healthcare,5,0
+1101,SMB,Tech,2,0
+1102,SMB,Public Sector,4,0
+1103,SMB,Manufacturing,2,1
+1104,Consumer,Healthcare,5,0
+1105,SMB,Public Sector,5,1
+1106,Mid-Market,Healthcare,1,0
+1107,Enterprise,Finance,5,1
+1108,Mid-Market,Healthcare,1,1
+1109,Consumer,Tech,4,1
+1110,Consumer,Healthcare,2,1
+1111,SMB,Healthcare,2,0
+1112,Mid-Market,Tech,1,0
+1113,SMB,Manufacturing,2,0
+1114,SMB,Healthcare,5,0
+1115,SMB,Tech,3,0
+1116,Enterprise,Public Sector,1,0
+1117,Mid-Market,Finance,2,0
+1118,SMB,Finance,1,0
+1119,SMB,Healthcare,1,1
+1120,Consumer,Manufacturing,3,0
+1121,SMB,Manufacturing,5,1
+1122,SMB,Public Sector,1,1
+1123,Mid-Market,Healthcare,2,1
+1124,Consumer,Finance,4,0
+1125,SMB,Manufacturing,1,1
+1126,Enterprise,Healthcare,1,1
+1127,Consumer,Manufacturing,3,1
+1128,SMB,Tech,5,0
+1129,Enterprise,Manufacturing,4,0
+1130,Mid-Market,Finance,2,0
+1131,Enterprise,Retail,4,0
+1132,Enterprise,Public Sector,2,0
+1133,Mid-Market,Public Sector,5,1
+1134,SMB,Finance,2,1
+1135,Consumer,Manufacturing,3,0
+1136,SMB,Healthcare,3,1
+1137,SMB,Manufacturing,3,0
+1138,SMB,Finance,3,1
+1139,Mid-Market,Public Sector,4,1
+1140,Enterprise,Manufacturing,5,0
+1141,SMB,Public Sector,2,0
+1142,Mid-Market,Healthcare,2,1
+1143,SMB,Public Sector,3,0
+1144,Enterprise,Public Sector,3,0
+1145,SMB,Retail,1,1
+1146,Enterprise,Retail,5,0
+1147,Mid-Market,Tech,4,1
+1148,Consumer,Retail,2,0
+1149,SMB,Public Sector,1,1
+1150,SMB,Finance,1,0
+1151,SMB,Public Sector,2,1
+1152,Consumer,Finance,4,1
+1153,Consumer,Finance,1,0
+1154,SMB,Retail,1,0
+1155,Enterprise,Manufacturing,5,1
+1156,Consumer,Healthcare,4,0
+1157,Mid-Market,Retail,1,0
+1158,Mid-Market,Retail,4,0
+1159,SMB,Manufacturing,2,0
+1160,SMB,Healthcare,3,1
+1161,Consumer,Public Sector,1,0
+1162,Consumer,Tech,5,0
+1163,Enterprise,Tech,2,0
+1164,SMB,Public Sector,4,0
+1165,SMB,Retail,2,0
+1166,Enterprise,Healthcare,1,0
+1167,Consumer,Retail,4,1
+1168,Consumer,Finance,3,0
+1169,Consumer,Retail,2,0
+1170,Enterprise,Retail,1,1
+1171,SMB,Public Sector,5,0
+1172,SMB,Public Sector,4,1
+1173,Consumer,Public Sector,2,0
+1174,Enterprise,Tech,2,0
+1175,SMB,Finance,3,0
+1176,SMB,Public Sector,3,0
+1177,Enterprise,Healthcare,5,1
+1178,SMB,Tech,5,0
+1179,SMB,Manufacturing,1,0
+1180,Mid-Market,Healthcare,1,0
+1181,Enterprise,Healthcare,5,0
+1182,Enterprise,Public Sector,5,1
+1183,SMB,Manufacturing,4,0
+1184,Enterprise,Manufacturing,3,0
+1185,SMB,Tech,1,0
+1186,SMB,Manufacturing,3,0
+1187,Enterprise,Finance,3,1
+1188,Enterprise,Public Sector,5,0
+1189,Consumer,Manufacturing,4,1
+1190,Enterprise,Tech,2,0
+1191,Mid-Market,Finance,4,0
+1192,SMB,Retail,4,1
+1193,Mid-Market,Retail,3,0
+1194,SMB,Finance,4,0
+1195,SMB,Tech,1,1
+1196,Consumer,Finance,3,0
+1197,Mid-Market,Public Sector,1,1
+1198,Consumer,Public Sector,2,0
+1199,Enterprise,Retail,3,1
+1200,Consumer,Manufacturing,2,1
+1201,Mid-Market,Tech,3,0
+1202,Mid-Market,Retail,5,1
+1203,Mid-Market,Manufacturing,4,0
+1204,SMB,Manufacturing,5,1
+1205,Enterprise,Public Sector,2,0
+1206,SMB,Healthcare,4,0
+1207,SMB,Healthcare,3,0
+1208,Enterprise,Finance,4,0
+1209,SMB,Public Sector,1,0
+1210,Consumer,Manufacturing,4,1
+1211,Consumer,Tech,1,1
+1212,Consumer,Healthcare,4,1
+1213,Mid-Market,Manufacturing,1,0
+1214,SMB,Healthcare,2,0
+1215,Consumer,Healthcare,5,0
+1216,Mid-Market,Healthcare,3,0
+1217,Consumer,Tech,4,0
+1218,Consumer,Public Sector,5,0
+1219,Consumer,Tech,3,1
+1220,SMB,Retail,3,0
+1221,Mid-Market,Manufacturing,1,0
+1222,Consumer,Public Sector,2,0
+1223,SMB,Public Sector,2,0
+1224,SMB,Public Sector,5,0
+1225,Mid-Market,Public Sector,2,1
+1226,Consumer,Tech,4,0
+1227,Enterprise,Public Sector,2,0
+1228,Mid-Market,Finance,5,0
+1229,SMB,Manufacturing,2,1
+1230,Enterprise,Public Sector,4,1
+1231,Consumer,Manufacturing,1,1
+1232,SMB,Finance,5,0
+1233,Mid-Market,Finance,1,0
+1234,Consumer,Manufacturing,1,0
+1235,Enterprise,Healthcare,1,1
+1236,Enterprise,Retail,3,1
+1237,Enterprise,Healthcare,3,0
+1238,Mid-Market,Healthcare,1,1
+1239,SMB,Tech,5,1
+1240,Consumer,Healthcare,4,0
+1241,Consumer,Public Sector,4,1
+1242,Consumer,Tech,2,1
+1243,Consumer,Tech,5,0
+1244,Mid-Market,Finance,3,0
+1245,Mid-Market,Healthcare,1,0
+1246,Consumer,Finance,2,0
+1247,Enterprise,Manufacturing,4,0
+1248,Enterprise,Retail,3,0
+1249,Consumer,Tech,3,1
+1250,Consumer,Manufacturing,1,0
+1251,SMB,Manufacturing,4,0
+1252,Mid-Market,Public Sector,5,0
+1253,SMB,Retail,3,0
+1254,Mid-Market,Manufacturing,1,1
+1255,SMB,Manufacturing,5,0
+1256,Mid-Market,Retail,4,0
+1257,Mid-Market,Retail,3,0
+1258,SMB,Manufacturing,5,1
+1259,Mid-Market,Retail,5,1
+1260,SMB,Manufacturing,5,0
+1261,SMB,Manufacturing,3,0
+1262,Consumer,Public Sector,3,0
+1263,Mid-Market,Healthcare,2,0
+1264,SMB,Manufacturing,4,0
+1265,Mid-Market,Finance,1,0
+1266,Consumer,Tech,5,0
+1267,SMB,Healthcare,2,0
+1268,Enterprise,Healthcare,1,1
+1269,SMB,Healthcare,2,0
+1270,SMB,Public Sector,3,0
+1271,Mid-Market,Manufacturing,5,0
+1272,Mid-Market,Public Sector,1,0
+1273,Enterprise,Manufacturing,1,1
+1274,Enterprise,Public Sector,1,0
+1275,Consumer,Public Sector,1,0
+1276,Mid-Market,Tech,1,1
+1277,SMB,Finance,2,0
+1278,Consumer,Public Sector,5,0
+1279,SMB,Tech,3,1
+1280,Mid-Market,Retail,3,0
+1281,SMB,Finance,3,0
+1282,SMB,Public Sector,3,1
+1283,Consumer,Healthcare,2,0
+1284,Consumer,Retail,4,0
+1285,Enterprise,Retail,5,0
+1286,Mid-Market,Tech,1,1
+1287,SMB,Retail,4,0
+1288,SMB,Finance,3,0
+1289,SMB,Public Sector,4,0
+1290,Mid-Market,Public Sector,5,0
+1291,Enterprise,Healthcare,1,0
+1292,Enterprise,Tech,1,0
+1293,SMB,Healthcare,5,0
+1294,Consumer,Retail,5,0
+1295,Enterprise,Healthcare,3,0
+1296,Mid-Market,Finance,1,0
+1297,Enterprise,Public Sector,4,0
+1298,Mid-Market,Retail,2,0
+1299,SMB,Healthcare,2,1
