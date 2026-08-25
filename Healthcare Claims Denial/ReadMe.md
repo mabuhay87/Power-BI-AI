@@ -141,7 +141,33 @@ Although overall accuracy is high, denial recall is only 9.3%. The model correct
 
 Before production use, the next modeling iteration should prioritize recall and the financial cost of missed denials. Recommended experiments include class weighting, threshold tuning, resampling, additional authorization and coding features, and cost-sensitive evaluation.
 
-## Data Model
+## Current Data Source: Excel
+
+The current Power BI report is built from an Excel workbook. Excel provides a portable data source that allows the complete dashboard to be opened and refreshed without requiring access to a SQL Server instance.
+
+The workbook contains the following Excel tables or worksheets:
+
+| Excel table/worksheet | Purpose | Primary key |
+|---|---|---|
+| `Claims` | Claim dates, procedures, billed and paid amounts, actual outcomes and operational flags | `ClaimKey` |
+| `Members` | Member demographics, plan type, state and risk attributes | `MemberKey` |
+| `Providers` | Provider name, specialty, network status and state | `ProviderKey` |
+| `Predictions` | Claim-level denial probability, predicted outcome and risk band | `ClaimKey` |
+| `ModelMetrics` | Accuracy, precision, recall, F1 score, ROC AUC and error counts | `Metric` |
+
+The `Date` table is created inside Power BI and related to `Claims[ServiceDate]`. The included SQL Server script is an optional database implementation for a future production-style version of the project.
+
+### Excel data preparation
+
+- Format each worksheet range as an official Excel table using **Home → Format as Table**.
+- Give each Excel table the exact name shown above.
+- Keep column names unchanged so Power Query steps and DAX measures continue to work.
+- Store dates as Excel dates, not text.
+- Store `DeniedFlag`, `PredictedDenial`, authorization and filing indicators consistently as `0/1`, `TRUE/FALSE`, or `Yes/No` according to the current Power Query transformations.
+- Store `DenialProbability` as a decimal between `0` and `1`.
+- Do not add merged cells, blank header rows, subtotals or manually calculated totals inside the source tables.
+
+## Data Model for SQL Server Use
 
 The Power BI model follows a star-schema design.
 
