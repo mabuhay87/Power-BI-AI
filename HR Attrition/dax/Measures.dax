@@ -1,0 +1,23 @@
+Headcount =
+DISTINCTCOUNT(Employees[EmployeeKey])
+
+Attrited Employees =
+CALCULATE([Headcount], Employees[AttritionFlag] = 1)
+
+Attrition Rate =
+DIVIDE([Attrited Employees], [Headcount], 0)
+
+High-Risk Employees =
+CALCULATE(DISTINCTCOUNT(AttritionPredictions[EmployeeKey]), AttritionPredictions[AttritionProbability] >= 0.65)
+
+Average Tenure =
+AVERAGE(Employees[TenureYears])
+
+Average Monthly Income =
+AVERAGE(Employees[MonthlySalary])
+
+New Hires =
+CALCULATE(DISTINCTCOUNT(Employees[EmployeeKey]), USERELATIONSHIP(DimDate[Date], Employees[HireDate]))
+
+Terminations =
+CALCULATE(DISTINCTCOUNT(Employees[EmployeeKey]), USERELATIONSHIP(DimDate[Date], Employees[TerminationDate]))
